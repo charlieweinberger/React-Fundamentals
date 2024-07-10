@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  background: lightgray;
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.square {
+  border: 1px solid black;
+  float: left;
+  font-size: 25px;
+  line-height: 35px;
+  height: 35px;
+  width: 35px;
+  margin-right: -3px;
+  margin-top: -3px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
